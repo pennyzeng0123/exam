@@ -1,0 +1,222 @@
+.navbar .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.navbar .logo span {
+    font-size: 1.2rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #ffffff;
+}
+
+.nav-links {
+    display: flex;
+    gap: 25px;
+}
+
+.nav-links a, 
+.nav-links a:visited {
+    color: #f4f0ea;
+    font-size: 0.95rem;
+    transition: color 0.3s ease;
+    text-decoration: none;
+}
+
+.nav-links a:hover, 
+.nav-links a.active {
+    color: #d4a373 !important;
+    border-bottom: 2px solid #d4a373;
+    padding-bottom: 2px;
+}
+
+/* 側邊欄與按鈕選單樣式 */
+.sidebar {
+    background-color: #f4f0ea;
+    padding: 25px 20px;
+    border-radius: 12px;
+    height: fit-content;
+}
+
+.sidebar h3 {
+    margin-bottom: 20px;
+    color: #8c6d53;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.sidebar-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 25px;
+}
+
+.menu-btn {
+    display: block;
+    background-color: #ffffff;
+    color: #8c6d53;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 10px;
+    font-size: 1.05rem;
+    font-weight: 500;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+    transition: all 0.2s ease;
+}
+
+.menu-btn:hover {
+    background-color: #fcf9f5;
+}
+
+.menu-btn.active {
+    background-color: #8c6d53;
+    color: #ffffff;
+    box-shadow: 0 3px 6px rgba(140, 109, 83, 0.25);
+}
+
+/* 營業時間與交通資訊卡片樣式 */
+.info-card {
+    background-color: #fffdf9;
+    border: 1px solid #efe4d8;
+    border-radius: 12px;
+    padding: 20px;
+}
+
+.info-card h4 {
+    color: #8c6d53;
+    font-size: 1.2rem;
+    margin-bottom: 18px;
+    font-weight: bold;
+}
+
+.info-item {
+    margin-bottom: 16px;
+}
+
+.info-item h5 {
+    color: #8c6d53;
+    font-size: 1rem;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+.info-item p {
+    color: #666666;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    margin-bottom: 4px;
+}
+
+.info-link {
+    display: inline-block;
+    color: #8c6d53;
+    font-size: 0.95rem;
+    text-decoration: underline;
+    margin-top: 5px;
+}
+
+.info-link:hover {
+    color: #6b523e;
+}
+
+.hero-section {
+    background: linear-gradient(rgba(44,36,29,0.65), rgba(44,36,29,0.65)), url('../images/101.jpg') center/cover;
+    color: #ffffff;
+    padding: 60px 40px;
+    border-radius: 12px;
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+.hero-section h1 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+}
+
+.hero-section p {
+    font-size: 1.05rem;
+    opacity: 0.9;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.card {
+    background: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: block;
+    color: inherit;
+    text-decoration: none;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 16px rgba(0,0,0,0.1);
+}
+
+.card img {
+    height: 180px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.card-content h3 {
+    font-size: 1.15rem;
+    margin-bottom: 10px;
+    color: #2c241d;
+}
+
+.card-content p {
+    color: #666;
+    font-size: 0.9rem;
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+    background-color: #2c241d;
+    color: #a89f91;
+    margin-top: 60px;
+    font-size: 0.85rem;
+}
+/* 側邊欄按鈕基礎樣式 */
+.sidebar-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 25px;
+}
+
+/* 預設未點擊的按鈕（白色外觀） */
+.menu-btn {
+    display: block;
+    background-color: #ffffff;
+    color: #8c6d53;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 10px;
+    font-size: 1.05rem;
+    font-weight: 500;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+    transition: all 0.2s ease;
+}
+
+.menu-btn:hover {
+    background-color: #fcf9f5;
+}
+
+/* 🎯 關鍵：當前分頁被點擊時的深咖啡色按鈕樣式 */
+.menu-btn.active {
+    background-color: #8c6d53 !important;
+    color: #ffffff !important;
+    box-shadow: 0 3px 6px rgba(140, 109, 83, 0.25);
+}
